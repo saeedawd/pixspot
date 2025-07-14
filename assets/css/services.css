@@ -1,0 +1,116 @@
+.services-gallery .image-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  height: 100%;
+  position: relative;
+}
+
+.services-gallery .image-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.services-gallery .image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-gallery .image-wrapper img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.services-gallery .image-card:hover img {
+  transform: scale(1.05);
+}
+
+.services-gallery .overlay-icon {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.services-gallery .overlay-icon i {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.services-gallery .image-card:hover .overlay-icon {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .services-gallery .image-wrapper img {
+    height: 150px;
+  }
+
+  .services-gallery .overlay-icon {
+    font-size: 12px;
+  }
+}
+/* Animation for image loading */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image-card.animate-on-load {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+.breadcrumbs {
+  position: relative;
+  z-index: 10;
+}
+
+.services-gallery .image-wrapper video {
+  border-radius: 12px;
+  transition: transform 0.5s ease;
+}
+
+.services-gallery .image-card:hover video {
+  transform: scale(1.05);
+}
+.video-wrapper video {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* تخصيص خاص بصفحة التسويق الإلكتروني */
+body.digital-page .services-gallery .image-wrapper {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+body.digital-page .services-gallery .image-wrapper img,
+body.digital-page .services-gallery .image-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
