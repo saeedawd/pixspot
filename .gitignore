@@ -1,16 +1,21 @@
-# Cache objects
-packer_cache/
+# Ignore system files
+.DS_Store
+Thumbs.db
 
-# Crash log
-crash.log
+# Ignore vendor folder (if using Composer)
+vendor/
 
-# https://www.packer.io/guides/hcl/variables
-# Exclude all .pkrvars.hcl files, which are likely to contain sensitive data, 
-# such as password, private keys, and other secrets. These should not be part of 
-# version control as they are data points which are potentially sensitive and 
-# subject to change depending on the environment.
-#
-*.pkrvars.hcl
+# Ignore environment config
+.env
 
-# For built boxes
-*.box
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore cache or temp files
+*.log
+*.cache
+*.tmp
+
+# Node/npm (if you ever use it)
+node_modules/
