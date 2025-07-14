@@ -1,5 +1,5 @@
 # Pixspot Website – Advertising Agency
-
+![View from Pixspot](assets/img/websideimg.png)
 This is a professional website project for an advertising and branding agency, built with:
 - ✅ HTML
 - ✅ CSS
@@ -19,7 +19,6 @@ To present Pixspot's creative services in a modern, visual, and user-friendly wa
 
 ---
 # موقع Pixspot - شركة دعاية وإعلان
-![عرض من موقع Pixspot](assets/img/websideimg.png)
 
 
 هذا المشروع عبارة عن موقع احترافي لشركة دعاية وإعلان، تم تطويره باستخدام:
