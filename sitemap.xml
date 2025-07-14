@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://www.yourdomain.com/</loc>
-    <lastmod>2025-07-10</lastmod>
-    <priority>1.0</priority>
+    <loc>https://pix-spot.com/</loc>
+    <priority>1.00</priority>
   </url>
+
   <url>
-    <loc>https://www.yourdomain.com/about.php</loc>
-    <lastmod>2025-07-01</lastmod>
-    <priority>0.8</priority>
+    <loc>https://pix-spot.com/about.php</loc>
   </url>
+
   <url>
-    <loc>https://www.yourdomain.com/services.php</loc>
-    <lastmod>2025-07-05</lastmod>
-    <priority>0.8</priority>
+    <loc>https://pix-spot.com/portfolio-details.php</loc>
   </url>
+
   <url>
-    <loc>https://www.yourdomain.com/digital-marketing.php</loc>
-    <lastmod>2025-07-09</lastmod>
-    <priority>0.7</priority>
+    <loc>https://pix-spot.com/service-details.php</loc>
   </url>
-  </urlset>
+
+  <!-- خدمات -->
+  <url>
+    <loc>https://pix-spot.com/services/digital.php</loc>
+  </url>
+
+  <url>
+    <loc>https://pix-spot.com/services/exhibitions.php</loc>
+  </url>
+
+  <url>
+    <loc>https://pix-spot.com/services/gifts.php</loc>
+  </url>
+
+  <url>
+    <loc>https://pix-spot.com/services/laser.php</loc>
+  </url>
+
+  <url>
+    <loc>https://pix-spot.com/services/logos.php</loc>
+  </url>
+
+  <url>
+    <loc>https://pix-spot.com/services/photography.php</loc>
+  </url>
+
+  <url>
+    <loc>https://pix-spot.com/services/prints.php</loc>
+  </url>
+  
+  <url>
+    <loc>https://pix-spot.com/services/signs.php</loc>
+  </url>
+  
+  <url>
+    <loc>https://pix-spot.com/services/websites.php</loc>
+  </url>
+
+</urlset>
