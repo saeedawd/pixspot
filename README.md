@@ -19,7 +19,8 @@ To present Pixspot's creative services in a modern, visual, and user-friendly wa
 
 ---
 # موقع Pixspot - شركة دعاية وإعلان
-![عرض من موقع Pixspot](assets/img/website.png)
+![عرض من موقع Pixspot](assets/img/websideimg.png)
+
 
 هذا المشروع عبارة عن موقع احترافي لشركة دعاية وإعلان، تم تطويره باستخدام:
 - ✅ HTML
